@@ -11,7 +11,6 @@ function add(string $title, string $text, array &$textStorage): void {
 
 add('Математика', '2+2', $textStorage);
 add('Физика', 'F=ma', $textStorage);
-
 print_r($textStorage);
 
 function remove(int $i, array &$textStorage):bool {
